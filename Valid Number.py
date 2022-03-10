@@ -6,7 +6,7 @@ valid = False
 while not valid:
     try:
         response = int(input("Enter a number between 1 and 10: "))
-        if low <= response <= high:
+        if 1 <= response <= 10:
             valid = True
         else:
             print(error)
