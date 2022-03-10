@@ -19,4 +19,4 @@ def int_check(question, low, high):
 # Main Routine
 num_1 = int_check("Enter a number between", 1, 15)
 num_2 = int_check("Enter a number between", 5, 10)
-print("\n List number is {}; and \n2nd number is {}".formt(num_1, num_2))
+print("\nList number is {}; and \n2nd number is {}".format(num_1, num_2))
